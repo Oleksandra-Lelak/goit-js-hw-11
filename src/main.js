@@ -1,14 +1,14 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-import { getImagesByQuery } from './pixabay-api';
+import { getImagesByQuery } from './js/pixabay-api.js';
 
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './render-functions';
+} from './js/render-functions.js';
 
 const form = document.querySelector('.form');
 
